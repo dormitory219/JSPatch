@@ -40,6 +40,8 @@
 		3613C38F1C6329F300E915CB /* packer.php in Resources */ = {isa = PBXBuildFile; fileRef = 3613C3761C6329F300E915CB /* packer.php */; };
 		3613C3AF1C6346F500E915CB /* JPCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613C3AE1C6346F500E915CB /* JPCleaner.m */; };
 		36F0DCC61BFAF41C0090EA4A /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F0DCC51BFAF41C0090EA4A /* libz.1.dylib */; };
+		45144E991D212F2D000BE142 /* re.m in Sources */ = {isa = PBXBuildFile; fileRef = 45144E981D212F2D000BE142 /* re.m */; };
+		45144E9C1D212FB7000BE142 /* ewew.m in Sources */ = {isa = PBXBuildFile; fileRef = 45144E9B1D212FB7000BE142 /* ewew.m */; };
 		6C6CAC741C5F0BCA00444348 /* superTest.js in Resources */ = {isa = PBXBuildFile; fileRef = 6C6CAC721C5F0BCA00444348 /* superTest.js */; };
 		6C6CAC751C5F0BCA00444348 /* SuperTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CAC731C5F0BCA00444348 /* SuperTestObject.m */; };
 		6C72B7961C352BA80086C98D /* newProtocolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C72B7951C352BA80086C98D /* newProtocolTest.m */; };
@@ -128,6 +130,10 @@
 		3613C3AD1C6346F500E915CB /* JPCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCleaner.h; sourceTree = "<group>"; };
 		3613C3AE1C6346F500E915CB /* JPCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCleaner.m; sourceTree = "<group>"; };
 		36F0DCC51BFAF41C0090EA4A /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		45144E971D212F2D000BE142 /* re.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = re.h; sourceTree = "<group>"; };
+		45144E981D212F2D000BE142 /* re.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = re.m; sourceTree = "<group>"; };
+		45144E9A1D212FB7000BE142 /* ewew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ewew.h; sourceTree = "<group>"; };
+		45144E9B1D212FB7000BE142 /* ewew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ewew.m; sourceTree = "<group>"; };
 		6C6CAC711C5F0BCA00444348 /* SuperTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperTestObject.h; sourceTree = "<group>"; };
 		6C6CAC721C5F0BCA00444348 /* superTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = superTest.js; sourceTree = "<group>"; };
 		6C6CAC731C5F0BCA00444348 /* SuperTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperTestObject.m; sourceTree = "<group>"; };
@@ -179,6 +185,10 @@
 				2D6D12F91B0B8CF20095A435 /* Supporting Files */,
 				2D5D89171B0B8BFF009382EC /* AppDelegate.h */,
 				2D5D89181B0B8BFF009382EC /* AppDelegate.m */,
+				45144E971D212F2D000BE142 /* re.h */,
+				45144E981D212F2D000BE142 /* re.m */,
+				45144E9A1D212FB7000BE142 /* ewew.h */,
+				45144E9B1D212FB7000BE142 /* ewew.m */,
 				2D5D891D1B0B8BFF009382EC /* JPViewController.h */,
 				2D5D891E1B0B8BFF009382EC /* JPViewController.m */,
 				2D6D13001B0B8CFF0095A435 /* demo.js */,
@@ -477,6 +487,7 @@
 				2D5D89211B0B8BFF009382EC /* AppDelegate.m in Sources */,
 				3613C38E1C6329F300E915CB /* ZipArchive.m in Sources */,
 				3613C3861C6329F300E915CB /* JPEngine.m in Sources */,
+				45144E991D212F2D000BE142 /* re.m in Sources */,
 				3613C37F1C6329F300E915CB /* JPInclude.m in Sources */,
 				3613C3881C6329F300E915CB /* JPLoader.m in Sources */,
 				3613C37A1C6329F300E915CB /* JPCGGeometry.m in Sources */,
@@ -487,6 +498,7 @@
 				3613C3791C6329F300E915CB /* JPCGContext.m in Sources */,
 				3613C3891C6329F300E915CB /* ioapi.c in Sources */,
 				3613C3801C6329F300E915CB /* JPMemory.m in Sources */,
+				45144E9C1D212FB7000BE142 /* ewew.m in Sources */,
 				2D5D89251B0B8BFF009382EC /* JPViewController.m in Sources */,
 				3613C3811C6329F300E915CB /* JPStructPointer.m in Sources */,
 				3613C37B1C6329F300E915CB /* JPCGImage.m in Sources */,
